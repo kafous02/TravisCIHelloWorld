@@ -3,6 +3,7 @@ language: C
 compiler:
   - clang
   - gcc
-  
+
 script:
-  - make hello.c
+  - make hello
+  - ./hello
